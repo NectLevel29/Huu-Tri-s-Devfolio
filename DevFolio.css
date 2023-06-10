@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    list-style: none;
+}
+
+.website-container{
+    background-color: #b8884e;
+}
+
+/* Header */
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #b8884e;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 11;
+}
+
+.header-devfolio{
+    width: 40%;
+
+}
+
+.header-options-choices{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    /* padding: 20px 0 20px 0; */
+    height: 58.4px;
+}
+
+.header-options-choices li{
+    list-style: none;
+}
+
+/* Intro */
+
+.intro-container{
+    /* position: relative; */
+    position: absolute;
+    background-color: #b8884e;
+    opacity: 50%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.intro{
+    position: relative;
+    color: white;
+    background-image: url(https://wallpapers.com/images/hd/dark-academia-harry-potter-1979apfla13d2edk.jpg);
+    width: 100%;
+    z-index: 1;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-text{
+    text-align: center;
+    z-index: 1;
+}
+
+.intro-title{
+    font-size: 50px;
+}
+
+.intro-subtitle{
+    font-size: 40px;
+}
+
+/* Profile */
+.profile{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border: 1px solid #d6b575;
+    width: 75%;
+    display: flex;
+    padding-top: 20px;
+    background-color: #d6b575;
+}
+
+.profile-bar{
+    height: 5px;
+    width: 156px;
+    background-color: #171819;
+}
+
+.profile-image{
+    width: 100px;
+    height: 125px;
+}
+
+.profile-left{
+    width: 50%;
+    margin: 20px;
+}
+
+.profile-left li{
+    list-style-type: none;
+}
+
+.profile-left-top{
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.profile-left-top-content{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-right{
+    width: 50%;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.profile-right p{
+    margin: 15px 0;
+}
+
+/* Services */
+.hobbies{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.hobby-line{
+    width: 60px;
+    height: 5px;
+    background-color: #171819;
+    margin: 5px auto 20px auto;
+}
+
+.hobbies-top{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    margin: 0 100px;
+}
+
+.hobby-container{
+    border: 1px solid #986931;
+    border-radius: 15px;
+    width: 30%;
+    background-color: #d6b575;
+}
+
+.hobby-all{
+    margin: 60px 10px;
+}
+
+.hobby{
+    border: 5px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+.hobbies-bottom{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    margin: 20px 100px;
+}
+
+/* Statistics */
+.statistics{
+    position: relative;
+    background-image: url("https://wallpaperaccess.com/full/5652415.png");
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-around;
+    background-blend-mode: multiply;
+}
+
+.statistics-overlay{
+    position: absolute;
+    background-color: #d6b575;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 50%;
+}
+
+.statistics-container{
+    text-align: center;
+    z-index: 1;
+}
+
+.statistics-content{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.statistics-circle{
+    border: 6px solid white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 40px;
+    margin: 0 auto;
+    color: white;
+}
+
+/* Work */
+.work-title{
+    margin: 40px auto;
+    text-align: center;
+}
+
+.work-bar{
+    width: 65px;
+    height: 5px;
+    background-color: #171819;
+    margin: -30px auto 50px auto;
+}
+
+.work-rows{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 40px;
+    justify-content: space-evenly;
+}
+
+.work-image{
+    width: 400px;
+    /* object-fit: cover; */
+    height: 300px;
+}
+
+.work-card{
+    background-color: white;
+    padding-bottom: 15px;
+}
+
+.work-wrapper{
+    margin: 0 0 0 10px;
+}
+
+/* Feedback */
+.feedback{
+    background-image: url(img/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 380px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.feedback-overlay{
+    position: absolute;
+    background-color: #d6b575;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 45%;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.feedback-content{
+    text-align: center;
+    z-index: 1;
+    margin: 0 auto;
+    width: 80%;
+    color: black;
+}
+
+.feedback-content img{
+    height: 150px;
+    width: 165px;
+    border-radius: 100px;
+}
+
+.feedback-content h2{
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.feedback-content p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.feedback-icon{
+    text-align: center;
+    font-size: 32px;
+    border: 6px solid white;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    line-height: 50px;
+    background-color: white;
+    margin: 10px auto;
+}
+
+/* Blog */
+.blog-header{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.blog-bar{
+    height: 5px;
+    width: 60px;
+    background-color: #171819;
+    margin: 5px auto 30px auto;
+}
+
+.blog-content{
+    display: flex;
+    margin: 0 40px;
+    justify-content: space-evenly;
+}
+
+.blog-card{
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    width: 26%;
+
+}
+
+.blog-card img{
+    height: 250px;
+}
+
+.card-body{
+    padding: 15px 8px;
+}
+
+/* Contact */
+.contact{
+    margin-top: 40px;
+    position: relative;
+    background-image: url(img/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.contact-overlay{
+    position: absolute;
+    background-color: #d6b575;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 45%;
+}
+
+.contact-content{
+    padding: 40px 0;
+    background-color: white;
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    /* height: 50%; */
+}
+
+.contact-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.contact-left input{
+    margin-top: 20px;
+}
+
+.contact-left textarea{
+    margin-top: 20px;
+}
+
+.contact-left button{
+    margin-top: 20px;
+    /* width: 107px; */
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 32px;
+}
+
+.contact-right{
+    width: 55%;
+    margin-left: 30px;
+}
+
+.contact-right p{
+    margin-top: 20px;
+}
+
+.contact-right ul{
+    margin-top: 20px;
+    padding: 0;
+}
+
+.contact-right li{
+    margin-top: 20px;
+}
+
+.contact-bar{
+    height: 5px;
+    width: 80px;
+    background-color: #5e3e17;
+}
+
+.contact-left input{
+    padding: 10px;
+}
+
+.contact-left textarea{
+    padding-left: 10px;
+}
