@@ -188,7 +188,11 @@
     }
 
     .header-options-choices li{
-        width: ;
+        width: auto;
+    }
+
+    .header-options-choices a{
+        padding: 0;
     }
 
     .profile{
