@@ -76,7 +76,7 @@
     }
 
     .contact-content{
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 90%;
     }
 
@@ -87,6 +87,7 @@
 
     .contact-right{
         width: 90%;
+        margin-bottom: 20px;
     }
 
 }
@@ -165,22 +166,31 @@
     }
 
     .contact-content{
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 90%;
     }
 
     .contact-left{
         width: 90%;
-        margin-bottom: 20px;
     }
 
     .contact-right{
         width: 90%;
+        margin-bottom: 20px;
     }
 
 }
 
 @media (max-width: 500px){
+
+    .header-options-choices{
+        font-size: 12px;
+    }
+
+    .header-options-choices li{
+        width: ;
+    }
+
     .profile{
         flex-direction: column;
     }
