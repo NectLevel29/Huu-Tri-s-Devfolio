@@ -1,6 +1,7 @@
 *{
     margin: 0;
     list-style: none;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 a{
@@ -14,7 +15,6 @@ a{
     display: flex;
     /* text-align: center; */
     align-items: center;
-    padding: 0 20px;
     display: inline-block;
 }
 
@@ -55,7 +55,12 @@ a:hover{
     align-items: center;
     width: 40%;
     /* padding: 20px 0 20px 0; */
+}
+
+.header-options-choices a{
     height: 58.4px;
+    line-height: 58.4px;
+    padding: 0 20px;
 }
 
 .header-options-choices li{
@@ -85,6 +90,7 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-attachment: fixed;
 }
 
 .intro-text{
@@ -476,4 +482,103 @@ a:hover{
 
 .contact-left textarea{
     padding-left: 10px;
+}
+
+/* Blog */
+.blog-container{
+    background-color: #FFC26F;
+}
+
+.blog-intro{
+    background-image: url(./img/landscape.jpg);
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    height: 250px;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-overlay{
+    background-color: #986931;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 70%;
+}
+
+.blog-text{
+    font-size: 25px;
+    color: white;
+    z-index: 1;
+}
+
+.blog-main{
+    margin: 50px auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.travel-content{
+    padding: 30px 30px 30px 30px;
+    margin-left: 20px;
+    background-color: #d6b575;
+}
+
+.travel-content h2{
+    margin-bottom: 20px;
+}
+
+.travel-content p{
+    margin-top: 20px;
+}
+
+.travel-content img{
+    width: 100%;
+}
+
+.blog-left{
+    width: 60%;
+}
+
+.blog-right{
+    width: 30%;
+    margin-left: 20px;
+}
+
+.blog-section{
+    background-color: #d6b575;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.blog-contact{
+    margin-top: 40px;
+    background-color: #d6b575;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 40px 40px 20px 40px;
+}
+
+.blog-contact input{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.blog-contact textarea{
+    margin-top: 20px;
+}
+
+.blog-contact button{
+    margin-top: 20px;
+    /* width: 107px; */
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 32px;
 }
