@@ -18,7 +18,7 @@ a{
     display: inline-block;
 }
 
-a:hover{
+.header-options-choices a:hover{
     color: #b8884e;
     background-color: white;
 }
@@ -391,10 +391,6 @@ a:hover{
     width: 100%;
 }
 
-.blog-card img{
-    height: 250px;
-}
-
 .card-body{
     padding: 15px 8px;
 }
@@ -583,4 +579,115 @@ a:hover{
     width: 200px;
     height: 50px;
     border-radius: 32px;
+}
+
+/* Gallery */
+.gallery-container{
+
+}
+
+.gallery-intro{
+    background-image: url(./img/firstimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    height: 400px;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.gallery-overlay{
+    background-color: #171819;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 70%;
+}
+
+.gallery-text{
+    margin-left: 40px;
+    font-size: 25px;
+    color: white;
+    z-index: 1;
+}
+
+.gallery-bar{
+    height: 5px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.gallery-section1{
+    padding: 40px;
+    background-color: #241b24;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.gallery-section1-text{
+    margin-left: 40px;
+}
+
+.gallery-bar2{
+    height: 5px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.gallery-section1-text p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.gallery-section2 img{
+    display: inline-block;
+    height: 400px;
+    width: 40%;
+}
+
+.gallery-section2{
+    display: flex;
+    background-color: #120f12;
+}
+
+.gallery-section2-right{
+    padding-top: 40px;
+    width: 60%;
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.gallery-section2-right p{
+    margin-top: 20px;
+}
+
+.gallery-section3 img{
+    display: inline-block;
+    height: 400px;
+    width: 50%;
+}
+
+.gallery-section3{
+    display: flex;
+    background-color: #3d3232;
+}
+
+.gallery-section3-left{
+    padding-top: 40px;
+    width: 50%;
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.gallery-section3-left p{
+    margin-top: 20px;
 }

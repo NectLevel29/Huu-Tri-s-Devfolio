@@ -1,0 +1,17 @@
+.header{
+    background-color: rgba(184, 136, 78, 0);
+}
+
+.header-options-choices a:hover{
+    color: #000000;
+    background-color: white;
+}
+
+.contact{
+    margin-top: 0;
+    padding-top: 40px;
+}
+
+.contact-overlay{
+    background-color: #000000;
+}
