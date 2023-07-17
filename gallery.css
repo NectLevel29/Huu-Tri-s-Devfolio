@@ -13,5 +13,6 @@
 }
 
 .contact-overlay{
-    background-color: #000000;
+    background: rgb(241,72,33);
+    background: linear-gradient(90deg, rgba(241,72,33,0.8436624649859944) 16%, rgba(124,228,238,1) 60%, rgba(246,250,86,1) 100%, rgba(64,122,45,1) 100%);
 }

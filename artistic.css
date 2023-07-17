@@ -70,3 +70,12 @@
 .artistic-longer:hover:after{
     width: 100px;
 }
+
+.contact{
+    margin-top: 0;
+    padding-top: 40px;
+}
+
+.contact-overlay{
+    background-color: #000000;
+}
