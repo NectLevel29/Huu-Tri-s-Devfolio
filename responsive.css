@@ -27,6 +27,7 @@
     .header-options-choices a{
         height: 58.4px;
         line-height: 58.4px;
+        padding: 0px 0px;
     }
 
     .header-options-choices li{
@@ -90,11 +91,76 @@
         margin-bottom: 20px;
     }
 
+    .blog-text{
+        margin-top: 60px;
+    }
+
+    .gallery-section2{
+        flex-direction: column;
+    }
+
+    .gallery-section2 img{
+        width: 100%;
+    }
+
+    .gallery-section2-right{
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .gallery-section3{
+        flex-direction: column-reverse;
+    }
+
+    .gallery-section3 img{
+        width: 100%;
+    }
+
+    .gallery-section3-left{
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .artistic-header{
+        flex-direction: column;
+    }
+
+    .artistic-header-devfolio{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .artistic-header-options-choices{
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .artistic-header-options-choices{
+        padding: 0;
+    }
+
+    .artistic-header-options-choices a{
+        height: 58.4px;
+        line-height: 58.4px;
+    }
+
+    .artistic-header-options-choices li{
+        width: 75.15px;
+    }
+
+    .artistic-first{
+        justify-content: center;
+    }
+
+    .artistic-first img{
+        margin-left: 0px;
+    }
 }
 
 /* Big Phone */
 
-@media (max-width: 739px){
+@media (max-width: 740px){
     .header{
         flex-direction: column;
     }
@@ -117,6 +183,7 @@
     .header-options-choices a{
         height: 58.4px;
         line-height: 58.4px;
+        padding: 0px 0px;
     }
 
     .header-options-choices li{
@@ -179,9 +246,91 @@
         margin-bottom: 20px;
     }
 
+    .blog-text{
+        margin-top: 60px;
+    }
+
+    .gallery-section2{
+        flex-direction: column;
+    }
+
+    .gallery-section2 img{
+        width: 100%;
+    }
+
+    .gallery-section2-right{
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .gallery-section3{
+        flex-direction: column-reverse;
+    }
+
+    .gallery-section3 img{
+        width: 100%;
+    }
+
+    .gallery-section3-left{
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .artistic-header{
+        flex-direction: column;
+    }
+
+    .artistic-header-devfolio{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .artistic-header-options-choices{
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .artistic-header-options-choices{
+        padding: 0;
+    }
+
+    .artistic-header-options-choices a{
+        height: 58.4px;
+        line-height: 58.4px;
+    }
+
+    .artistic-header-options-choices li{
+        width: 75.15px;
+    }
+
+    .artistic-first{
+        justify-content: center;
+    }
+
+    .artistic-first-content{
+        width: 100%;
+    }
+
+    .artistic-first img{
+        display: none;
+    }
+
+    .artistic-bar{
+        display: none;
+    }
+
+    .artistic-second{
+        flex-direction: column;
+    }
+
+    .artistic-second-part{
+        width: 100%;
+        margin-bottom: 40px;
+    }
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
 
     .header-options-choices{
         font-size: 12px;
@@ -207,6 +356,10 @@
         width: 90%;
     }
 
+    .feedback-content img{
+
+    }
+
     .hobby-container{
         width: 90%;
     }
@@ -217,5 +370,82 @@
 
     .blog-card{
         width: 90%;
+    }
+
+    .blog-main{
+        flex-direction: column;
+    }
+
+    .blog-left{
+        width: 95%;
+    }
+
+    .blog-right{
+        width: 95%;
+        margin: 40px auto;
+    }
+
+    .blog-text{
+
+    }
+
+    .gallery-section2{
+        flex-direction: column;
+    }
+
+    .gallery-section2 img{
+        width: 100%;
+    }
+
+    .gallery-section2-right{
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .gallery-section3{
+        flex-direction: column-reverse;
+    }
+
+    .gallery-section3 img{
+        width: 100%;
+    }
+
+    .gallery-section3-left{
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .artistic-header-options-choices{
+        font-size: 12px;
+    }
+
+    .artistic-header-options-choices li{
+        width: auto;
+    }
+
+    .artistic-header-options-choices a{
+        padding: 0;
+    }
+
+    .artistic-intro{
+        flex-direction: column-reverse;
+    }
+
+    .artistic-intro h1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .artistic-intro img{
+        height: 100px;
+    }
+
+    .artistic-second{
+        flex-direction: column;
+    }
+
+    .artistic-second-part{
+        width: 100%;
+        margin-bottom: 40px;
     }
 }
